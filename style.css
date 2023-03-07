@@ -1,0 +1,133 @@
+body {
+    background-color: #CCCCCC;
+}
+header {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(15deg, #010289, #03031E, #010289);
+    color: #BCBDC8;
+    text-align: center;
+    letter-spacing: 0.8em;
+      
+}
+nav {
+    width: 100%;
+    height: 17px;
+    background: #0100A5;
+    color: #BCBDC8;
+}
+
+
+ul.nav-list {
+    list-style: none;
+    font-style: inherit;
+    display: inline;
+
+  }
+  li {
+    display: inline;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+
+  li:hover {
+    background-color: #BCBDC8;
+    color: #0100A5;
+  }
+
+  li:last-child {
+    margin-right: 0px;
+  }
+
+
+
+  .betwen-nav-main {
+    width: 100%;
+    height:     10px;
+    background-color: #CCCCCC;
+  }
+  .betwen-info {
+    width: 100%;
+    height:     40px;
+    background-color: #CCCCCC;
+  }
+
+  .main-wraper {
+    display:flex;
+    justify-content:space-between;
+    overflow:auto;
+  }
+
+  main {
+    padding-top: 20px;
+    float:left;
+    color: #241A95;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-right: none;
+    
+}
+
+#info-list{
+    list-style: none;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding: 0;
+    font: 16px Arial, Helvetica, Geneva, sans-serif;
+}
+
+#info-list li div{
+    display: block;
+    float: left;
+}
+
+#info-list li div.listitem-head{width: 250px;}
+#info-list li div.listitem-val{width: 300px;}
+
+ul.custom-list {
+    list-style: none;
+    color: #241A95;
+    font-weight: bold;
+    
+  }
+  ul.custom-list li:before {
+    content: "";
+    height: 0;
+    width: 0;
+    
+    border-color: transparent #241A95;
+    border-style: solid;
+    border-width: 0.5em 0 0.5em 0.5em;
+    position: relative;
+    display: block;
+    left: -1em;
+    top: 1.25em;
+  }
+  
+
+  aside {
+    border:#454390;
+    border-style:solid;
+    border-width: 2px;
+    float:right;
+    width: 40%;
+    color: #241A95;
+    border-left-width: 0px;
+  }
+
+  .aside {
+    color: #241A95;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-top: 20px;
+  }
+
+  footer {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(#010289, #03031E);
+    color: #BCBDC8;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
